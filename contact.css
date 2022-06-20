@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+   /* background-color: rgb(244, 176, 189); */
+  
+ 
+   
+
+    
+}
+
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+    background-position: center;
+
+    font-size : larger;
+
+    background-image: url(ocean.jpeg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%,100%;
+    height: 750px;
+
+   
+
+}
+.main {
+    margin-right: 10px;
+    
+}
+
+.head{
+
+    margin-left: 10%;
+    margin-top:0%;
+    margin-bottom: 0%;
+
+
+}
+
+
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 1px;
+
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+
+
+}
+
+ul li a:hover{
+    background-color: whitesmoke;
+    color: black
+}
+
+.form1{
+
+    width: 300px;
+    border-radius: 10px;
+
+    padding: 15px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    
+}
+
+ul li.now a{
+    background-color: black;
+    color: white;
+
+}
+
+.insta{
+    border-radius: 10px;
+}
+
+
+    ion-icon {
+        font-size: 60px;
+      }
+
+      .work{
+        font-size: 100px;
+        font-size: larger;
+        font-weight: bolder;
+        color: black;
+
+      }       
